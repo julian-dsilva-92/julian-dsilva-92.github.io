@@ -1,21 +1,45 @@
+
+a:hover {
+    background-color: lawngreen;
+}
+
 body{
 
     background-image: url(../homework_1/background.jpg);
-    
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family:sans-serif
 }
-
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
 h1, h2, h3, p {
     text-align: center;
     
 }
+h3{
+    text-decoration-line: underline
+}
 
-.sports, .hobbies, .education, .job{
+ .education, .job{
     width:300px;
     margin: 0 auto;
     text-align:left;
 }
 
+.sports, .hobbies{
+    width:300px;
+    margin: 0 auto;
+    text-align:left;
+    list-style-type: none
+}
+.jobs{
+   list-style-type: square
+}
 img {
     
     max-width: 100%;
@@ -29,9 +53,10 @@ img {
     height: 350px;
     width: 350px;
 }
-.projects{
+table.projects{
     margin-left: auto;
    margin-right: auto;
+    width: 20%
     
 }
 
@@ -39,3 +64,11 @@ tr:nth-child(odd) {
     background-color:azure
 }
 
+tr:nth-child(even) {
+    background-color:beige
+}
+
+.bat, .cs, .gsu, .phil{
+    color: red;
+    font-weight: bold
+}
