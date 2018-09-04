@@ -6,9 +6,8 @@ a:hover {
 body{
 
     background-image: url(background.jpg);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     font-family:sans-serif
 }
 h1{
@@ -19,13 +18,13 @@ h2{
 }
 h1, h2, h3, p {
     text-align: center;
-    
+
 }
 h3{
     text-decoration-line: underline
 }
 
- .education, .job{
+.education, .job{
     width:300px;
     margin: 0 auto;
     text-align:left;
@@ -38,10 +37,10 @@ h3{
     list-style-type: none
 }
 .jobs{
-   list-style-type: square
+    list-style-type: square
 }
 img {
-    
+
     max-width: 100%;
     max-height: 100%;
 }
@@ -55,9 +54,9 @@ img {
 }
 table.projects{
     margin-left: auto;
-   margin-right: auto;
+    margin-right: auto;
     width: 20%
-    
+
 }
 
 tr:nth-child(odd) {
@@ -71,4 +70,10 @@ tr:nth-child(even) {
 .bat, .cs, .gsu, .phil{
     color: red;
     font-weight: bold
+}
+
+.page{
+    border: 0;
+    width: 85%;
+    align-items: center
 }
