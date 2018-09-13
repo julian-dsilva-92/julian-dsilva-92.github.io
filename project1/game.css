@@ -1,0 +1,85 @@
+body {
+    background-image: url("pic1.png");
+    font-family: 'Lily Script One';
+    background-size: cover;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin: -150px;
+    float: left;
+    perspective: 500px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .content {
+    transform: rotateY(180deg);
+}
+
+.front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    line-height: 40px;
+    color: #03446A;
+    text-align: center;
+    font-size: 35px;
+    backface-visibility: hidden;
+    vertical-align: middle;
+}
+
+.back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #871B29;
+    color: white;
+    transform: rotateY(180deg);
+    line-height: 40px;
+    text-align: center;
+    font-size: 50px;
+    backface-visibility: hidden;
+    vertical-align: middle;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    font-family: monospace;
+    text-shadow: 2px 2px;
+
+
+}
+
+.button {
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.cookies {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: blue;
+    color: white;
+    transform: rotateY(180deg);
+    line-height: 50px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+}
