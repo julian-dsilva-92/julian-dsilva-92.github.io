@@ -1,0 +1,107 @@
+
+body {
+	margin: auto;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Verdana;
+    background-color: lightcyan;
+}
+
+
+h1 {
+	color: limegreen;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+    width: 1000px;
+    margin-left: -176px;
+}
+
+.errorMsg {
+font-weight: bold;
+width: 1000px;
+margin-left: 274px;
+font-size: 28px;
+color: sienna;
+}
+
+.successMsg {
+width: 1000px;
+margin-left: 24px;
+font-size: 28px;
+color: sienna;
+font-weight: bold;
+}
+
+
+.board_cell {
+	float: left;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border: 5px solid #000;
+}
+.board {
+     width: 1000px;
+    margin-left: 87px;
+    margin-right: 7px;
+}
+.turn{
+    width: 1000px;
+    margin-left: 265px;
+    margin-right: 7px;
+}
+
+img{
+    padding-top: 25px;
+    width: 151px;
+}
+
+p{
+width: 1000px;
+margin-left: -186px;
+}
+
+b{
+     width: 1000px;
+    margin-left: 17px;
+    font-size: 20px;
+    color: blue;
+}
+.cscore{
+width: 1000px;
+margin-left: 261px;
+font-size: 21px;
+}
+
+.lboard{
+    width: 1000px;
+    margin-left: 274px;
+    color: royalblue;
+    
+}
+
+.ngame{
+ margin-left: 16px;
+}
+
+.board_cell select{
+margin-top: 70px;
+height: 60px;
+width: 94px;
+}
+
+.break {
+	clear: both;
+}
+.leader {
+ width: 1000px;
+margin-left: 243px;
+font-size: 18px;
+}
+
+#content {
+	margin: auto;
+	padding: 10px;
+	width: 60%;
+}

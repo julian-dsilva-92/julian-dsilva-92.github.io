@@ -1,0 +1,78 @@
+<style>
+         body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-image: url("https://s1.mzstatic.com/us/r30/Purple4/v4/b4/2b/30/b42b3065-a58a-331b-25a1-51769010555a/mzl.gnyqgxiq.png");
+            
+            
+         }
+         
+         
+         
+         .form-signin {
+            max-width: 1000px;
+            padding: 0px;
+            margin: auto;
+            color: #017572;
+            font-family: Comic Sans MS;
+         }
+         
+         .form-signin .form-signin-heading,
+         .form-signin .checkbox {
+            margin-bottom: 10px;
+            font-family: Comic Sans MS;
+         }
+         
+         .form-signin .checkbox {
+            font-weight: normal;
+            font-family: Comic Sans MS;
+         }
+         
+         .form-signin .form-control {
+            position: relative;
+            height: auto;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 10px;
+            font-size: 16px;
+            font-family: Comic Sans MS;
+         }
+         
+         .form-signin .form-control:focus {
+            z-index: 2;
+            font-family: Comic Sans MS;
+         }
+         
+         .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-color:#017572;
+            font-family: Comic Sans MS;
+         }
+         
+         .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-color:#017572;
+            font-family: Comic Sans MS;
+         }
+         
+          h1{
+        
+            color: black;
+            font-family: Comic Sans MS;
+            font-size: 30px;
+            text-align: center;
+            
+         }
+         
+         h2{
+            text-align: left;
+            color: #017572;
+            font-family: Comic Sans MS;
+            font-size: 15px;
+         }
+      </style>
